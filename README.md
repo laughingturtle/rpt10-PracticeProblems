@@ -13,7 +13,3 @@ From time-to-time your Technical Mentor or HiR will add problems to this repo fo
 ## Your contributions
 
 You are encouraged to find interesting problems in books, on the Internet, from friends and other repos in GitHub and add them to your fork of this repo.  You will be submitting all pull requests to your branch of this repo as you work.
-
-## Program Completion
-
-Because the problems in this repo are sourced from various public sites and are not Hack Reactor intellectual property, unlike the Hack Reactor Toy Problem repo that you are given, you are free to liberate this repo at the completion of the program.
