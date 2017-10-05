@@ -25,3 +25,14 @@ You may want to assign the student the entire project, or just specific stages. 
 13. Replace drop down with icons (will require new model and view)
 14. When icons are clicked, update rating model
 15. When rating model is changed, update icon view
+
+
+## Optional - Make a server
+1. Create an Express server that has endpoints for each behavior required by your front end
+2. Move your image data to a data structure on your Express server
+3. Create functions to _do_ the work required by each endpoint
+4. Modify your front end so that it makes API calls to your server to get, create and modify data as required.
+
+## Optional - Persist the data
+1. Setup a sqlite or mysql database to store your data
+2. Modify your API functions to interact with the database to store your data
