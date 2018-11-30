@@ -13,19 +13,20 @@ class App extends React.Component {
   }
 
   handleForm (descript, quant) {
-    var insert = false;
+    var inserted = false;
     var arr = this.state.list.slice();
 
     for(var i = 0; i < arr.length; i++){
       if(arr[i].description.toUpperCase() === descript.toUpperCase()) {
-        insert = true;
         arr[i].quantity = arr[i].quantity + Number(quant);
+        inserted = true;
       }
     }
-    if(!insert){
+    if(!inserted){
       arr.push({id:Number(arr.length +1), quantity: Number(quant), description: descript });
     }
-    insert = false;
+
+    inserted = false;
 
     this.setState({
       list: arr
