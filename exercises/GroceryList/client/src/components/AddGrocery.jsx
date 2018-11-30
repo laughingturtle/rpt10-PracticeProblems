@@ -11,7 +11,6 @@ class AddGrocery extends React.Component {
   onChangeDescription (e) {
     this.setState({
       description: e.target.value,
-      quantity: e.target.value
     });
   }
 

@@ -18,7 +18,8 @@ export default class GroceryList extends React.Component  {
 
   render() {
     var style = {
-      textDecoration: this.state.click ? 'line-through' : 'none'
+      textDecoration: this.state.click ? 'line-through' : 'none',
+      listStyle: 'none'
     }
 
     return(
