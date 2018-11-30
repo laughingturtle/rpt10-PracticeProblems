@@ -17,7 +17,7 @@ class App extends React.Component {
     var arr = this.state.list.slice();
 
     for(var i = 0; i < arr.length; i++){
-      if(arr[i].description === descript) {
+      if(arr[i].description.toUpperCase() === descript.toUpperCase()) {
         insert = true;
         arr[i].quantity = arr[i].quantity + Number(quant);
       }
